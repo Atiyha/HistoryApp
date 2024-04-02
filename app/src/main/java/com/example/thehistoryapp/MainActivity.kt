@@ -20,6 +20,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val btnGen = findViewById<Button>(R.id.btnGen) //declaration of btnGen, Button
+        val viewDisplay = findViewById<TextView>(R.id.viewDisplay) //declaration of TextView
+        val edtAge: EditText = findViewById(R.id.edtAge) //declaration of EditText
+        var people: String = " " //creating a variable as a string
+        val btnClear = findViewById<Button>(R.id.btnClear) //declaration of btnClear, Button
+
     }
 }
 
