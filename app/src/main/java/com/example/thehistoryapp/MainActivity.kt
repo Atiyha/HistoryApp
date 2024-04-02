@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         btnClear.setOnClickListener { resetApp() } //creating a new intent, and reset button
 
         btnGen.setOnClickListener {
-            val edtAgeText = edtAge.text.toString()
+            val edtAgeText = edtAge.text.toString() //declaration of variable as a string
 
             if (edtAgeText.isNotEmpty()) { //if statement if edtAge is empty
                 val age = edtAgeText.toIntOrNull() //creating a variable to store edtAge
