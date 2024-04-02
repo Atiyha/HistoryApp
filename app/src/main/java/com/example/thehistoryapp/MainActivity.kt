@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         var people: String = " " //creating a variable as a string
         val btnClear = findViewById<Button>(R.id.btnClear) //declaration of btnClear, Button
 
-        btnClear.setOnClickListener { resetApp() } //creating a new intent
+        btnClear.setOnClickListener { resetApp() } //creating a new intent, and reset button
     }
 }
 
